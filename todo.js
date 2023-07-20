@@ -25,7 +25,7 @@ function show_list() {
       '<button type="reset" class="btn1" style="border:0px;" >X</button>',
     ];
     makeButton.setAttribute("indexCount", i);
-    listShown.innerText = i + ")" + " " + todo_array[i];
+    listShown.innerText = i+1 + ")" + " " + todo_array[i];
     listitem.appendChild(listShown);
     listitem.appendChild(makeButton);
     to_list.appendChild(listitem);
